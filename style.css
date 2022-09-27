@@ -56,12 +56,17 @@ p {
     border-radius: 50%;
     position: absolute;
     bottom: -1.5rem;
+    
 }
 
 .dice img {
     padding: 1.2rem;
 }
 .dice:hover{
-    color: brown;
+    color:chartreuse;
+    background-color: chartreuse;
+    transform: scale(180deg);
+    /* transition: all 2s; */
     cursor: pointer;
+    
 }
